@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Str;
 require_once 'vendor/autoload.php';
 
-class UserSeeder extends Seeder
+class QuoteSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -17,14 +17,13 @@ class UserSeeder extends Seeder
     {
         // $this->call(UserSeeder::class);
     	$faker = Faker\Factory::create();
-    	for ($i = 0; $i < 200; $i++) {
-	        DB::table('users')->insert([
-	            'name' => $faker->name,
-	            'email' => $faker->email,
-	            'role' => rand(0,1),
-	            'status' => rand(0,1),
-	            'created_at' => $faker->dateTime,
-	            'updated_at' => $faker->dateTime,
+    	for ($i = 1; $i <= 40; $i++) {
+	        DB::table('quotes')->insert([
+	            'week' => $i,
+	            'text' => $faker->realText,
+	            'status' => 1,
+	            // 'created_at' => $faker->dateTime,
+	            // 'updated_at' => $faker->dateTime,
 	        ]);
 		}
     }

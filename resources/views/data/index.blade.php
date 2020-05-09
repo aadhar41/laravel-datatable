@@ -118,8 +118,6 @@
                                          {{ Form::select('status', array('0' => 'Inactive', '1' => 'Active'),'S',['placeholder'=>'Select Status ','id'=>'status','class'=>'form-control']) }}
                                     </div>
                                 </div>
-
-           
                             </div> 
                             
 
@@ -151,14 +149,6 @@
 
 
 <script>
-
-     $('body').on('change','#import_file', function()
-     {
-        var filename = $(this).val().replace(/C:\\fakepath\\/i, '');
-        $(this).parent().find('text').text(filename);
-
-     });
-
      var oTable =$('#products-table').DataTable({
         processing: true,
         "searching": true,
@@ -203,10 +193,6 @@
         oTable.draw();
         e.preventDefault();
     });
-
-
-    
-
 </script>
 
         <!-- jQuery -->
@@ -215,5 +201,6 @@
         <script src="//cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js"></script>
         <!-- Bootstrap JavaScript -->
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <br><br><br>
     </body>
 </html>
