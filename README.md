@@ -77,3 +77,20 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Laravel yajra datatable installation
+https://github.com/yajra/laravel-datatables { This for installation }
+https://datatables.yajrabox.com/starter { This for controller setup & css & js file }
+
+## Laravel collective installation
+https://laravelcollective.com/docs/6.0/html#installation
+
+## Laravel faker library
+https://github.com/fzaninotto/Faker
+
+I have user custom seeder (UserSeeder) to insert/seed data into database.
+## Laravel seeder command
+https://laravel.com/docs/7.x/seeding
+php artisan db:seed ( default command execute DatabaseSeeder )
+
+php artisan db:seed --class=UserSeeder ( command execute UserSeeder )
