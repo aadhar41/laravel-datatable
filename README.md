@@ -94,3 +94,12 @@ https://laravel.com/docs/7.x/seeding
 php artisan db:seed ( default command execute DatabaseSeeder )
 
 php artisan db:seed --class=UserSeeder ( command execute UserSeeder )
+
+## Laravel Added Cron/command Function (Laravel Cronjob Scheduling Example)
+Referense :
+https://appdividend.com/2018/03/01/laravel-cronjob-scheduling-tutorial/
+
+
+
+
+
