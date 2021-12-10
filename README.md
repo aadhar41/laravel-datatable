@@ -5,6 +5,8 @@ https://datatables.yajrabox.com/starter { This for controller setup & css & js f
 
 ## Laravel css & js assets for blade template
 
+![Datatable Method](https://github.com/aadhar41/laravel-datatable/blob/master/001-datatable-assets.png)
+
 
 <link rel="stylesheet" href="//cdn.datatables.net/1.10.7/css/jquery.dataTables.min.css">
 
